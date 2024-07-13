@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: #fff;
+}
+
+header .logo img {
+  height: 40px;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  height: 72vh;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 5vh;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero-text .year,
+.hero-text .seasons {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.hero-text .buttons {
+  margin: 20px 0;
+}
+
+.hero-text .buttons a {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-text .buttons button:last-child {
+  background-color: #333;
+}
+
+.hero-text .info {
+  margin: 20px 0;
+}
+
+.hero-text a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 70%;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e50914;
+  color: #fff;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
