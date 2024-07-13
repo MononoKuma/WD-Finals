@@ -14,11 +14,10 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
-  background-color: black;
+  background-color: #35302f;
   color: #fff;
   position: sticky;
   top: 0;
-  border-bottom: solid 1px red;
 }
 
 header .logo img {
@@ -42,6 +41,7 @@ header nav ul li a {
   display: flex;
   height: 72vh;
   align-items: center;
+  justify-content: center;
   background-color: #000;
   color: #fff;
   padding: 40px 20px;
@@ -49,7 +49,7 @@ header nav ul li a {
 
 .hero-text {
   flex: 1;
-  padding: 5vh;
+  padding: 5vh 10vw;
 }
 
 .hero-text h1 {
@@ -82,7 +82,7 @@ header nav ul li a {
 }
 
 .hero-text .info {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .hero-text a {
@@ -102,16 +102,15 @@ header nav ul li a {
 }
 
 .hero-image img {
-  width: 70%;
+  height: 60vh;
   border-radius: 8px;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: transparent;
+  background-color: #35302f;
   color: #fff;
-  border-top: solid 1px red;
 }
 
 footer nav ul {
