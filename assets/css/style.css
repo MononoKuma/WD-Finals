@@ -17,13 +17,12 @@ header {
   background-color: #35302f;
   color: #fff;
   position: sticky;
+  z-index: 1;
   top: 0;
 }
 
 header .logo img {
   height: 6rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 header nav ul {
@@ -39,71 +38,27 @@ header nav ul li a {
 
 .hero {
   display: flex;
-  height: 72vh;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 72vh;
   background-color: #000;
   color: #fff;
   padding: 40px 20px;
 }
 
-.hero-text {
-  flex: 1;
-  padding: 5vh 10vw;
+.date-time {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.hero-text h1 {
+#date {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#digital-clock {
   font-size: 3em;
-  margin: 0;
-}
-
-.hero-text .year,
-.hero-text .seasons {
-  font-size: 1.2em;
-  margin: 10px 0;
-}
-
-.hero-text .buttons {
-  margin: 20px 0;
-}
-
-.hero-text .buttons a {
-  margin-right: 10px;
-  padding: 10px 20px;
-  background-color: #e50914;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.hero-text .buttons button:last-child {
-  background-color: #333;
-}
-
-.hero-text .info {
-  margin: 10px 0;
-}
-
-.hero-text a {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #e50914;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.hero-image img {
-  height: 60vh;
-  border-radius: 8px;
 }
 
 footer {
