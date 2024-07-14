@@ -52,12 +52,12 @@ header nav ul li a {
   margin-bottom: 20px;
 }
 
-#date {
+.date-time #date {
   font-size: 1.5em;
   margin-bottom: 20px;
 }
 
-#digital-clock {
+.date-time #digital-clock {
   font-size: 3em;
 }
 
