@@ -4,23 +4,22 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
-  </a>
+ <a href="https://app.daily.dev/mononokuma">
+   <img src="https://api.daily.dev/devcards/v2/DMEySfkP0murZQ6MrL1WW.png?type=wide&r=rgz" width="652" alt="Aries's Dev Card"/>
+ </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Finals Project</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This final project is a compilation of past projects to show our improvement and knowledge of this subject.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=MononoKuma/WD-Finals)
 
 ---
 
@@ -57,20 +56,16 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Description of the project in detail.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This final project is a comprehensive collection of our previous projects, demonstrating our progress and understanding of the subject matter. By compiling these projects, we can clearly illustrate how our skills and knowledge have evolved over time. Early projects might show basic understanding and initial attempts at applying concepts, while later projects reflect more advanced techniques and a deeper grasp of the subject. The compilation serves as evidence of our growing comprehension, highlighting how we've applied theoretical knowledge in practical scenarios, tackled increasingly complex problems, and incorporated feedback to refine our work. This project not only presents finished products but also showcases our learning process, illustrating the journey of improvement, challenges faced, and solutions developed. By reviewing all our past work in one comprehensive project, we provide a holistic view of our educational experience, connecting the dots between different projects and showing how each contributed to our overall growth and understanding.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Animated Elements
+- javascript
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -95,16 +90,54 @@ WD-ProjectName
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ background.jpeg
+|   |   └─ logo.png
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ about
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ banner.jpeg
+|  |  |  |  └─ logo.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ contact
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ banner.jpeg
+|  |  |  |  └─ logo.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ credits
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ canva.svg
+|  |  |  |  └─ gfg.svg
+|  |  |  |  └─ logo.png
+|  |  |  |  └─ removebg.png
+|  |  |  |  └─ w3schools.png
+|  |  |  |  └─ youtube.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ projects
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
+|     |  └─ document
+|     |  |  └─ Ong_Seatwork 1.pdf
+|     |  |  └─ desktop.ini
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |  └─ logo.jpg
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
@@ -117,4 +150,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3Shools | HTML & CSS | https://www.w3schools.com |
+| GeeksforGeeks | HTML & CSS | https://www.geeksforgeeks.org |
+| Ian Ramirez | Template | https://github.com/zyx-0314 |
+| Daily Dev | Readme Icon | https://daily.dev/ |
+| Google | Images | https://google.com/ |
+| Getbootstrap | Icons | https://icons.getbootstrap.com |
