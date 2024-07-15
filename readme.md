@@ -156,3 +156,4 @@ WD-ProjectName
 | Daily Dev | Readme Icon | https://daily.dev/ |
 | Google | Images | https://google.com/ |
 | Getbootstrap | Icons | https://icons.getbootstrap.com |
+| WakaTime | Timer | https://wakatime.com/@MononoKuma |
